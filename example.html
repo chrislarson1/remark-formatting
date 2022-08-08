@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://chrislarson1.github.io/remark-formatting/style.css">  
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+    <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="https://chrislarson1.github.io/remark-formatting/mathjax-config.js"></script>
+</head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+## Title
+
+---
+## Agenda
+
+1. Introduction
+2. Deep-dive
+3. ...
+
+---
+
+## Basic math
+
+
+$$ \hat{Y} = \sum\_{i=1}^{N} \frac{x^2}{3} $$
+
+---
+## Multiline math
+
+$$
+\begin{aligned}
+x &= x \\\
+  &= y + 3
+\end{aligned}
+$$
+
+---
+## Table
+
+| Beep |   No.  |   Boop |
+| :---: | :----: | :-----: |
+| beep |  1024  |    xyz |
+| boop | 338845 |    tuv |
+| foo  |  10106 | qrstuv |
+| bar  |   45   |   lmno |
+
+---
+
+## Json code block
+
+#### json example
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+#### yaml example
+
+```yaml
+apiVersion: "v1"
+kind: "Deployment"
+metadata:
+    name: "myDeployment"
+    namespace: "myNamespace"
+template: {}
+```
+
+---
+
+## python code block
+
+```python
+def function(parameter1, parameter2)
+    return parameter1 + parameter2
+
+if __name__ == "__main__"
+    print(function(3, 4))
+```
+
+---
+
+## Image
+
+<figure>
+    <img src='https://cdn.educba.com/academy/wp-content/uploads/2020/01/Deep-Learning.jpg'; width="70%" />
+      <font size="2">
+        <figcaption> Deep Learning
+        </figcaption>
+      </font>
+</figure>
+
+---
+## Video
+
+<figure>
+    <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY";  height="400px"; width="600px"; > </iframe> 
+</figure>
+
+
+    </textarea>
+    <script> var slideshow = remark.create(); </script>
+  </body>
+</html>
