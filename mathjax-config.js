@@ -1,0 +1,1 @@
+MathJax.Hub.Config({ CommonHTML: { scale: 150 } });
