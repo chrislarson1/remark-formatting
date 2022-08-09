@@ -70,10 +70,10 @@ table tbody tr:nth-child(odd) {
 div.footer {
     border-top: 1px solid #ccc;
     font-size: 10pt;
-	text-align: center;
-	position: fixed;
-	bottom: 15px;
-	left: 0px;
-	height: 15px;
-	width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    left: 0px;
+    height: 15px;
+    width: 100%;
 }
