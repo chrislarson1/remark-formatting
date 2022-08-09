@@ -1,18 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,400italic);
 
 body { 
-    font-family: 'Roboto Mono'; 
-}
-
-h1, h2, h3, h4, p, ul, dl, li {
     font-family: 'Roboto Mono';
-    font-weight: normal;
     font-stretch: condensed;
-    font-size: small;
 }
 
-.remark-code, .remark-inline-code { 
-    font-family: 'Roboto Mono'; 
+h1, h2 {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-size: xx-large !important;
+}
+
+.remark-code, .remark-inline-code, .remark-slide-content, .remark-container { 
+    font-family: 'Roboto Mono';
+    font-size: medium;
 }
 
 table {
@@ -45,7 +47,7 @@ table tbody td {
 }
 
 table tbody tr {
-   background-color: #b6b6b6;
+background-color: #b6b6b6;
 }
 
 table tbody tr:nth-child(odd) {
