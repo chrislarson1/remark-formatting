@@ -1,20 +1,33 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,400italic);
 
 body { 
-    font-family: 'Roboto Mono';
-    font-stretch: condensed;
+    font-family: 'Roboto Mono' !important;
 }
 
-h1, h2 {
-    font-family: 'Roboto Mono';
+h1 {
     font-weight: bold;
-    font-stretch: condensed;
     font-size: xx-large !important;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: x-large !important;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: large !important;
+}
+
+
+h4 {
+    font-weight: bold;
+    font-size: larger !important;
+}
+
 .remark-code, .remark-inline-code, .remark-slide-content, .remark-container { 
-    font-family: 'Roboto Mono';
     font-size: medium;
+    font-stretch: "50%" !important;
 }
 
 table {
@@ -52,4 +65,15 @@ background-color: #b6b6b6;
 
 table tbody tr:nth-child(odd) {
     background-color: #ffffff;
+}
+
+div.footer {
+    border-top: 1px solid #ccc;
+    font-size: 10pt;
+	text-align: center;
+	position: fixed;
+	bottom: 15px;
+	left: 0px;
+	height: 15px;
+	width: 100%;
 }
